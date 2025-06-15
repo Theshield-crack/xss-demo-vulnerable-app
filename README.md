@@ -17,18 +17,10 @@ To simulate how an attacker could:
 
 ---
 
-## 🏗️ Project Structure
+
+I Started the webapp which is hosted in my localhost (Tomcat)
 
 
-## xss-demo-vulnerable-app/
-## │
-## ├── vulnerable-java-app/ # Java Spring web app (hosted on Tomcat)
-## │ └── index.jsp, controller, etc.
-## │
-## ├── phishing-backend/ # PHP server to capture credentials
-## │ └── capture.php
-## │
-## ├── screenshots/ # Demo flow (optional)
-## │ └── phishing-demo.png
-## │
-## └── README.md
+![1](https://github.com/user-attachments/assets/b31668e0-8e4f-45aa-8e8d-9cd6472808e8)
+
+
