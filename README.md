@@ -35,6 +35,31 @@ Payload
 
 ![2](https://github.com/user-attachments/assets/9c7d843d-260e-42c5-9a17-9956de85868a)
 
+## What this does
+
+"><script>alert(...) — DOM-XSS popup
+
+<form action=...> — Reflection-XSS injects phishing form
+
+Form submits to attacker-controlled site
+
+---
+
+The user will get popup prompting the user to log in first
+
+![4](https://github.com/user-attachments/assets/c69b1a2e-450e-4671-a7b7-158655d13622)
+
+
+---
+
+from the injected Payload it ask the user to enter the username and password
+
+![5](https://github.com/user-attachments/assets/680fb121-c1f9-44f4-acd2-a7703e54d0e6)
+
+
+
+
+
 
 
 
