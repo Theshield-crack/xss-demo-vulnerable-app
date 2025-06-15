@@ -24,3 +24,18 @@ I Started the webapp which is hosted in my localhost (Tomcat)
 ![1](https://github.com/user-attachments/assets/b31668e0-8e4f-45aa-8e8d-9cd6472808e8)
 
 
+---
+
+Next, i inerted a DOM based XSS script in the query 
+
+![3](https://github.com/user-attachments/assets/0e58c723-c4f5-4fc5-9b75-03e9dd928f97)
+
+
+Payload
+
+![2](https://github.com/user-attachments/assets/9c7d843d-260e-42c5-9a17-9956de85868a)
+
+
+
+
+
