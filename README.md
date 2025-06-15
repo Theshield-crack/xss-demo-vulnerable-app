@@ -61,13 +61,15 @@ from the injected Payload it ask the user to enter the username and password
 
 
 from the Attackers side I created a custom PHP Script (capture.php) which grabs the cred from the user:
-'''php
+
 ![8](https://github.com/user-attachments/assets/d97c548c-4676-4e6f-bc8d-3b43598c6aec)
 
 
+---
 
+Saved the file and Started the PHP script
 
-
+> php -S 0.0.0.0:8000
 
 
 
