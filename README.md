@@ -85,6 +85,13 @@ from the Attackers side i was able to capture the users cred through hosted PHP 
 
 ![10](https://github.com/user-attachments/assets/425063a8-a439-486f-8c64-fd493cfa12d9)
 
+---
+
+Getting POST request from captured Details
+
+![7](https://github.com/user-attachments/assets/32bcdb15-8614-4492-933f-edcf4a46f6ff)
+
+
 
 
 
