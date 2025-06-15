@@ -69,7 +69,23 @@ from the Attackers side I created a custom PHP Script (capture.php) which grabs 
 
 Saved the file and Started the PHP script
 
-> php -S 0.0.0.0:8000
+>  php -S 0.0.0.0:8000
+
+
+---
+
+for the login Creden i gave Tom:qwerty!
+
+
+![9](https://github.com/user-attachments/assets/8bd4fefa-309e-43ab-819f-c35df2ff75e1)
+
+---
+
+from the Attackers side i was able to capture the users cred through hosted PHP host
+
+![10](https://github.com/user-attachments/assets/425063a8-a439-486f-8c64-fd493cfa12d9)
+
+
 
 
 
